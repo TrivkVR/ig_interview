@@ -1,0 +1,14 @@
+# NeMo Guardrails config. The model name is overridden at load time from
+# app.config.GUARDRAIL_MODEL (see app/agent/guardian.py).
+models:
+  - type: main
+    engine: openai
+    model: gpt-5.6-luna
+
+rails:
+  input:
+    flows:
+      - self check input
+  output:
+    flows:
+      - self check output

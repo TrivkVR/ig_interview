@@ -1,0 +1,4 @@
+weaviate-client>=4.9,<5
+openai>=1.40
+pydantic>=2
+pytest>=8

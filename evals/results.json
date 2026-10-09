@@ -1,0 +1,564 @@
+{
+  "judge_model": "gemini-3.5-flash-lite",
+  "embedding_model": "gemini-embedding-001",
+  "summary": {
+    "answer_relevancy": 0.7508998099571271,
+    "faithfulness": 0.7685185185185186,
+    "llm_context_precision_with_reference": 0.9555555554599999
+  },
+  "by_category": {
+    "maintenance_manuals": {
+      "answer_relevancy": null,
+      "faithfulness": 0.4166666666666667,
+      "llm_context_precision_with_reference": 0.86666666658
+    },
+    "quality_control_standards": {
+      "answer_relevancy": null,
+      "faithfulness": 0.8888888888888888,
+      "llm_context_precision_with_reference": 0.9999999999
+    },
+    "safety_procedures": {
+      "answer_relevancy": 0.7508998099571271,
+      "faithfulness": 1.0,
+      "llm_context_precision_with_reference": 0.9999999999
+    }
+  },
+  "items": [
+    {
+      "id": "q01",
+      "category": "safety_procedures",
+      "question": "What stored energy must be relieved during lockout, and what temperature must heaters and barrels fall below?",
+      "reference": "All stored energy must be relieved or restrained: bleed pneumatic and hydraulic lines to zero pressure, block raised press rams with safety blocks, and discharge capacitors. Thermal energy in heaters and barrels must dissipate to below 50 degrees C.",
+      "answer": "During lockout, relieve or restrain all stored energy: bleed pneumatic and hydraulic lines to zero pressure, block raised press rams with safety blocks, discharge capacitors, and allow thermal energy in heaters and barrels to dissipate below 50\u00b0C.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Relieve or restrain all stored energy. Bleed pneumatic and hydraulic lines to zero pressure, block raised press rams with safety blocks, and discharge capacitors. Allow thermal energy in heaters and barrels to dissipate to below 50 degrees C.",
+        "Operate each energy-isolating device (electrical disconnect, pneumatic valve, hydraulic valve) to the safe or OFF position. Apply a personal lock and a danger tag to each device. The tag must show the employee name, date and department.",
+        "This procedure establishes the minimum requirements for isolating hazardous energy before any servicing or maintenance of machines and equipment. It prevents unexpected energization, start-up or release of stored energy that could injure personnel.",
+        "Before removing locks, inspect the work area to confirm that tools and spare parts are removed, guards are reinstalled and all personnel are clear. Notify affected employees that the machine will be re-energized."
+      ],
+      "citations": [
+        {
+          "document_name": "Lockout/Tagout (LOTO) Procedure SOP-SAF-001",
+          "page_number": 2,
+          "section": "3. Lockout Sequence",
+          "sub_section": "3.3 Stored Energy Release",
+          "category": "safety_procedures"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q02",
+      "category": "safety_procedures",
+      "question": "How is isolation verified during lockout/tagout?",
+      "reference": "Attempt a normal start from the operator control station to verify the machine does not operate, then return controls to OFF. On electrical systems use a calibrated voltmeter to confirm zero energy, following test-before-touch: test the meter on a known live source, test the circuit, then re-test the meter.",
+      "answer": "Isolation is verified by attempting a normal start from the operator control station to confirm that the machine does not operate, then returning the controls to OFF. For electrical systems, use a calibrated voltmeter to confirm zero energy: test the meter on a known live source, test the isolated circuit, and re-test the meter on the known live source. [0]",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Attempt a normal start from the operator control station to verify that the machine does not operate. Return controls to OFF afterward. Use a calibrated voltmeter on electrical systems to confirm zero energy (test-before-touch: test the meter on a known live source, test the circuit, re-test the meter).",
+        "Operate each energy-isolating device (electrical disconnect, pneumatic valve, hydraulic valve) to the safe or OFF position. Apply a personal lock and a danger tag to each device. The tag must show the employee name, date and department.",
+        "Identify all energy sources using the machine-specific energy control card posted on the equipment. Notify affected employees. Shut the machine down using the normal stop procedure. Do not use the emergency stop as a routine shutdown method.",
+        "Before removing locks, inspect the work area to confirm that tools and spare parts are removed, guards are reinstalled and all personnel are clear. Notify affected employees that the machine will be re-energized."
+      ],
+      "citations": [
+        {
+          "document_name": "Lockout/Tagout (LOTO) Procedure SOP-SAF-001",
+          "page_number": 3,
+          "section": "3. Lockout Sequence",
+          "sub_section": "3.4 Verification of Isolation",
+          "category": "safety_procedures"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q03",
+      "category": "safety_procedures",
+      "question": "Who may remove a lock applied by another employee under the LOTO procedure?",
+      "reference": "Only the employee who applied a lock may remove it. If that employee is unavailable, the Safety Manager may authorize removal after making every reasonable effort to contact the employee and confirming the employee is not on site. The employee must be informed before resuming work.",
+      "answer": "Only the employee who applied the lock may remove it. If that employee is unavailable, the Safety Manager may authorize removal after making every reasonable effort to contact the employee and confirming the employee is not on site. The employee must be informed before resuming work.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Only the employee who applied a lock may remove it. If that employee is unavailable, the Safety Manager may authorize removal after making every reasonable effort to contact the employee and after confirming the employee is not on site. The employee must be informed before resuming work.",
+        "Authorized employees are trained and certified to apply locks and tags. Each authorized employee must hold a personal red lock with a unique key and must never share it. Authorized employees perform the lockout steps in Section 3.",
+        "Before removing locks, inspect the work area to confirm that tools and spare parts are removed, guards are reinstalled and all personnel are clear. Notify affected employees that the machine will be re-energized.",
+        "Affected employees operate or work near locked-out equipment. They must never attempt to start, energize or use a machine bearing a lock or tag."
+      ],
+      "citations": [
+        {
+          "document_name": "Lockout/Tagout (LOTO) Procedure SOP-SAF-001",
+          "page_number": 3,
+          "section": "4. Lock Removal and Restoring Equipment",
+          "sub_section": "4.2 Removal of a Lock by Another Person",
+          "category": "safety_procedures"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": 0.7723433341897095,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q04",
+      "category": "safety_procedures",
+      "question": "What PPE is required for handling acids and caustics versus solvents and degreasers?",
+      "reference": "Acids and caustics require a face shield, butyl rubber gloves and a chemical-resistant apron. Solvents and degreasers require nitrile gloves at least 0.4 mm thick and splash goggles. Gloves must be replaced immediately after any splash or visible degradation.",
+      "answer": "For handling acids and caustics, wear a face shield, butyl rubber gloves, and a chemical-resistant apron. For handling solvents and degreasers, wear nitrile gloves at least 0.4 mm thick and splash goggles. Safety glasses with side shields and steel-toe boots are required throughout the production floor. Replace gloves immediately after any splash or visible degradation.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Handling of solvents and degreasers requires nitrile gloves of at least 0.4 mm thickness and splash goggles. Handling of acids and caustics requires a face shield, butyl rubber gloves and a chemical-resistant apron. Replace gloves immediately after any splash or visible degradation.",
+        "Safety glasses with side shields and steel-toe boots are required on the entire production floor. Machining areas additionally require hearing protection when noise exceeds 85 dBA. Welding requires a shade 10 or darker auto-darkening helmet, flame-resistant jacket and gloves.",
+        "Acids must be segregated from bases, and oxidizers from flammables and organics. Never store nitric acid with organic solvents. Secondary containment must hold 110 percent of the largest container.",
+        "A Safety Data Sheet (SDS) for every chemical on site must be available in the binder at each department entrance and in the electronic SDS library. Supervisors must ensure operators review the SDS before first use of a new chemical."
+      ],
+      "citations": [
+        {
+          "document_name": "Chemical Handling and PPE Guide SOP-SAF-014",
+          "page_number": 1,
+          "section": "2. Personal Protective Equipment",
+          "sub_section": "2.2 Chemical-Specific PPE",
+          "category": "safety_procedures"
+        },
+        {
+          "document_name": "Chemical Handling and PPE Guide SOP-SAF-014",
+          "page_number": 1,
+          "section": "2. Personal Protective Equipment",
+          "sub_section": "2.1 Minimum PPE by Task",
+          "category": "safety_procedures"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": 0.7294562857245448,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q05",
+      "category": "safety_procedures",
+      "question": "What must be done for a chemical spill over 4 liters or of unknown material?",
+      "reference": "Evacuate the area, call the emergency line at extension 911, and close doors. Do not attempt cleanup. For skin or eye exposure, flush at the nearest eyewash or shower for at least 15 minutes and seek medical attention.",
+      "answer": "For a chemical spill over 4 liters or involving an unknown material, evacuate the area, close the doors, call the emergency line at extension 911, and do not attempt cleanup. If skin or eye exposure occurs, flush at the nearest eyewash or safety shower for at least 15 minutes and seek medical attention.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "For a spill over 4 liters or any spill of unknown material, evacuate the area, call the emergency line at extension 911, and close doors. Do not attempt cleanup. For skin or eye exposure, flush at the nearest eyewash or shower for at least 15 minutes and seek medical attention.",
+        "A small spill is under 4 liters and not highly toxic. Notify nearby personnel, wear the PPE listed in the SDS, contain with absorbent socks, absorb, bag the waste and label it as hazardous waste. Log the spill with EHS within one hour.",
+        "All containers, including secondary containers such as spray bottles, must be labeled with the product name, GHS pictograms, signal word and hazard statements. Unlabeled containers must be removed from service and reported to the EHS office immediately.",
+        "Acids must be segregated from bases, and oxidizers from flammables and organics. Never store nitric acid with organic solvents. Secondary containment must hold 110 percent of the largest container."
+      ],
+      "citations": [
+        {
+          "document_name": "Chemical Handling and PPE Guide SOP-SAF-014",
+          "page_number": 2,
+          "section": "4. Spill Response",
+          "sub_section": "4.2 Large Spills and Emergency Eyewash",
+          "category": "safety_procedures"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q06",
+      "category": "safety_procedures",
+      "question": "Where do Plant 1 and Plant 2 employees assemble during an evacuation?",
+      "reference": "Plant 1 assembles at Assembly Point A in the north parking lot, and Plant 2 at Assembly Point B beside the loading dock. Elevators must not be used.",
+      "answer": "Plant 1 employees assemble at Assembly Point A in the north parking lot. Plant 2 employees assemble at Assembly Point B beside the loading dock. Do not use elevators during evacuation.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Posted evacuation maps at each exit show the nearest route. Plant 1 assembles at Assembly Point A in the north parking lot, and Plant 2 at Assembly Point B beside the loading dock. Do not use elevators.",
+        "Dial extension 911 from any plant phone for fire, medical or chemical emergencies. The Safety Manager is on call on extension 4402. Report all incidents, including near misses, to your supervisor before the end of the shift.",
+        "Supervisors carry the shift roster, perform a headcount at the assembly point and report missing persons to the Incident Commander. No one re-enters the building until the all-clear is given by the fire department or Incident Commander.",
+        "A continuous siren indicates evacuation. A pulsing tone indicates shelter in place. Any employee may activate a manual pull station."
+      ],
+      "citations": [
+        {
+          "document_name": "Emergency Response and Evacuation Plan SOP-SAF-020",
+          "page_number": 1,
+          "section": "2. Evacuation",
+          "sub_section": "2.1 Evacuation Routes and Assembly Points",
+          "category": "safety_procedures"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q07",
+      "category": "maintenance_manuals",
+      "question": "When must hydraulic oil in the HP-200 press be sampled and replaced?",
+      "reference": "Sample the oil every 500 operating hours. Replace the fluid when the particle count exceeds ISO 4406 code 18/16/13, water content exceeds 0.1 percent, or the acid number increases by 0.5 mg KOH/g over new oil.",
+      "answer": "Sample the HP-200 press hydraulic oil every 500 operating hours. Replace it if the particle count exceeds ISO 4406 code 18/16/13, water content exceeds 0.1%, or the acid number increases by 0.5 mg KOH/g over new oil.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Sample the oil every 500 operating hours. Replace the fluid when the particle count exceeds ISO 4406 code 18/16/13, water content exceeds 0.1 percent, or the acid number increases by 0.5 mg KOH/g over new oil.",
+        "Replace the return line filter when the differential pressure indicator is in the red zone, or every 1000 hours. Replace the pressure filter annually. Record the date on the filter housing.",
+        "Use ISO VG 46 anti-wear hydraulic oil. Operating temperature range is 40 to 55 degrees C. Do not mix oils of different brands or types.",
+        "Inspect rod seals for leakage monthly. A film of oil is normal, but dripping more than 1 drop per minute requires seal replacement. Inspect the rod for scoring."
+      ],
+      "citations": [
+        {
+          "document_name": "Hydraulic Press HP-200 Maintenance Manual MNT-HP200",
+          "page_number": 1,
+          "section": "1. Hydraulic System",
+          "sub_section": "1.2 Fluid Sampling and Replacement",
+          "category": "maintenance_manuals"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 0.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q08",
+      "category": "maintenance_manuals",
+      "question": "How and when is the HP-200 light curtain tested?",
+      "reference": "Test it at the start of each shift with a 30 mm test rod. The press must stop within the response time displayed on the controller; if the test fails, remove the machine from service.",
+      "answer": "The HP-200 light curtain must be tested at the start of every shift using a 30 mm test rod. The press must stop within the response time displayed on the controller. If the test fails, remove the machine from service.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Extinguishers are visually inspected monthly and serviced annually. Inspection tags must be initialed on each check. Report any discharged, damaged or blocked extinguisher to Facilities immediately.",
+        "Attempt a normal start from the operator control station to verify that the machine does not operate. Return controls to OFF afterward. Use a calibrated voltmeter on electrical systems to confirm zero energy (test-before-touch: test the meter on a known live source, test the circuit, re-test the meter).",
+        "Safety glasses with side shields and steel-toe boots are required on the entire production floor. Machining areas additionally require hearing protection when noise exceeds 85 dBA. Welding requires a shade 10 or darker auto-darkening helmet, flame-resistant jacket and gloves.",
+        "This procedure establishes the minimum requirements for isolating hazardous energy before any servicing or maintenance of machines and equipment. It prevents unexpected energization, start-up or release of stored energy that could injure personnel.",
+        "Test the light curtain at the start of each shift with a 30 mm test rod. The press must stop within the response time displayed on the controller. Remove the machine from service if the test fails.",
+        "Sample the oil every 500 operating hours. Replace the fluid when the particle count exceeds ISO 4406 code 18/16/13, water content exceeds 0.1 percent, or the acid number increases by 0.5 mg KOH/g over new oil.",
+        "Replace the return line filter when the differential pressure indicator is in the red zone, or every 1000 hours. Replace the pressure filter annually. Record the date on the filter housing.",
+        "Check for low oil level, a clogged suction strainer, a worn pump (flow decline over 10 percent), or internal cylinder leakage by performing a drift test."
+      ],
+      "citations": [
+        {
+          "document_name": "Hydraulic Press HP-200 Maintenance Manual MNT-HP200",
+          "page_number": 2,
+          "section": "3. Safety Devices",
+          "sub_section": "3.1 Light Curtain Testing",
+          "category": "maintenance_manuals"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 0.5,
+        "llm_context_precision_with_reference": 0.19999999998
+      }
+    },
+    {
+      "id": "q09",
+      "category": "maintenance_manuals",
+      "question": "How often is ram parallelism checked on the HP-200 and what is the tolerance?",
+      "reference": "Check quarterly using dial indicators at four corners. Tolerance is 0.05 mm over the bolster length; adjust the gibs if out of tolerance.",
+      "answer": "On the HP-200, ram parallelism is checked quarterly using dial indicators at the four corners. The tolerance is 0.05 mm over the bolster length. If it exceeds the tolerance, adjust the gibs.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Check ram parallelism to the bolster quarterly using dial indicators at four corners. Tolerance is 0.05 mm over the bolster length. Adjust the gibs if out of tolerance.",
+        "Inspect rod seals for leakage monthly. A film of oil is normal, but dripping more than 1 drop per minute requires seal replacement. Inspect the rod for scoring.",
+        "Test the light curtain at the start of each shift with a 30 mm test rod. The press must stop within the response time displayed on the controller. Remove the machine from service if the test fails.",
+        "Check for low oil level, a clogged suction strainer, a worn pump (flow decline over 10 percent), or internal cylinder leakage by performing a drift test."
+      ],
+      "citations": [
+        {
+          "document_name": "Hydraulic Press HP-200 Maintenance Manual MNT-HP200",
+          "page_number": 2,
+          "section": "2. Press Ram and Seals",
+          "sub_section": "2.2 Ram Parallelism Check",
+          "category": "maintenance_manuals"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 0.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q10",
+      "category": "maintenance_manuals",
+      "question": "What is the lubrication schedule for the conveyor head and tail pulley bearings?",
+      "reference": "Grease the head and tail pulley bearings every 250 operating hours with NLGI 2 lithium complex grease, two pumps per fitting. Do not over-grease, as this overheats bearings.",
+      "answer": "Lubricate the conveyor head and tail pulley bearings every 250 operating hours using NLGI 2 lithium-complex grease. Apply two pumps per fitting and do not over-grease, as this can overheat the bearings.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Grease the head and tail pulley bearings every 250 operating hours with NLGI 2 lithium complex grease, two pumps per fitting. Do not over-grease, as this overheats bearings.",
+        "Check gearbox oil level monthly and change the oil (ISO VG 220 synthetic) every 8000 hours. Motor current must be within 10 percent of the nameplate. Thermographic scan motors quarterly, and investigate any rise above 80 degrees C.",
+        "Inspect belt tracking, damaged lagging, abnormal noise, loose guards and material buildup at transfer points. Verify that the emergency pull cords function.",
+        "Check tension, worn lagging, wet or contaminated surfaces and excess load. Re-lag the drive pulley when the groove depth is below 2 mm."
+      ],
+      "citations": [
+        {
+          "document_name": "Belt Conveyor System Maintenance Manual MNT-CV10",
+          "page_number": 1,
+          "section": "1. Inspection and Lubrication",
+          "sub_section": "1.2 Lubrication Schedule",
+          "category": "maintenance_manuals"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q11",
+      "category": "maintenance_manuals",
+      "question": "What are the MC-500 spindle vibration limits and temperature limit?",
+      "reference": "Normal vibration is below 2.5 mm/s RMS. Investigate at 4.0 mm/s and stop the machine at 7.0 mm/s. Spindle temperature must not exceed 45 degrees C above ambient, and alarm 2041 indicates over-temperature.",
+      "answer": "For the MC-500 spindle:\n- Normal vibration: below 2.5 mm/s RMS\n- Investigate at: 4.0 mm/s RMS\n- Stop the machine at: 7.0 mm/s RMS\n- Temperature limit: must not exceed 45\u00b0C above ambient\n- Over-temperature alarm: Alarm 2041",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Normal vibration is below 2.5 mm/s RMS. Investigate at 4.0 mm/s, and stop the machine at 7.0 mm/s. Spindle temperature must not exceed 45 degrees C above ambient. Alarm 2041 indicates over-temperature.",
+        "Run the spindle warm-up program for 10 minutes ramping from 1000 rpm to 80 percent of maximum speed after any idle period exceeding 4 hours. This stabilizes bearing temperature and reduces thermal growth.",
+        "The MC-500 spindle uses oil-air lubrication. Check the oil reservoir weekly and refill with ISO VG 32 spindle oil. The air supply must be dry and filtered to 5 microns.",
+        "Check the way lubricant level, coolant concentration and level, and air pressure (minimum 5.5 bar). Wipe chips from way covers and the tool changer. Listen for abnormal noise from spindle and axes during warm-up."
+      ],
+      "citations": [
+        {
+          "document_name": "CNC Machining Center MC-500 Maintenance Manual MNT-MC500",
+          "page_number": 2,
+          "section": "2. Spindle System",
+          "sub_section": "2.3 Spindle Vibration and Temperature Limits",
+          "category": "maintenance_manuals"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q12",
+      "category": "maintenance_manuals",
+      "question": "What coolant concentration and pH must be maintained on the MC-500, and when is coolant replaced?",
+      "reference": "Maintain water-soluble coolant at 7 to 9 percent measured with a refractometer, with pH adjusted to 8.5 to 9.5. Replace the coolant when bacterial odor develops or every 6 months.",
+      "answer": "Maintain the MC-500 coolant at a 7\u20139% concentration, measured with a refractometer, and adjust the pH to 8.5\u20139.5. Replace the coolant when a bacterial odor develops or every six months, whichever comes first.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Maintain water-soluble coolant at 7 to 9 percent measured with a refractometer. Adjust pH to 8.5 to 9.5. Replace the coolant when bacterial odor develops or every 6 months.",
+        "Automatic way lubrication runs every 20 minutes. If alarm 3012 (low lube level) appears, refill with ISO VG 68 way oil. Do not use hydraulic oil.",
+        "Weekly: clean coolant tank filters, check the tool clamp drawbar force and inspect the chip conveyor. Monthly: check backlash on all axes, inspect way wipers and clean the electrical cabinet filters.",
+        "Check the way lubricant level, coolant concentration and level, and air pressure (minimum 5.5 bar). Wipe chips from way covers and the tool changer. Listen for abnormal noise from spindle and axes during warm-up."
+      ],
+      "citations": [
+        {
+          "document_name": "CNC Machining Center MC-500 Maintenance Manual MNT-MC500",
+          "page_number": 3,
+          "section": "3. Coolant and Lubrication",
+          "sub_section": "3.1 Coolant Concentration",
+          "category": "maintenance_manuals"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 0.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q13",
+      "category": "quality_control_standards",
+      "question": "What sample size is required for a lot of 501 to 1200 units during incoming inspection?",
+      "reference": "The sample size code is J, which requires a sample of 80 units, drawn randomly across the lot covering all boxes and pallets.",
+      "answer": "For an incoming-inspection lot of 501\u20131,200 units, inspect a sample of 80 units. Draw samples randomly across all boxes and pallets.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "For a lot of 501 to 1200 units, the sample size code is J, which requires a sample of 80 units. Draw samples randomly across the lot, covering all boxes and pallets.",
+        "Use ANSI/ASQ Z1.4 General Inspection Level II, with AQL 0.065 for critical characteristics, 1.0 for major, and 2.5 for minor defects. Switch to tightened inspection after 2 of 5 consecutive lots are rejected.",
+        "This standard defines how purchased raw material and components are inspected on receipt, including sampling plans and disposition rules.",
+        "Check packaging damage, labeling, lot number traceability, and the certificate of conformance and material test report. Material certificates must match the purchase order specification."
+      ],
+      "citations": [
+        {
+          "document_name": "Incoming Inspection and Sampling Standard QC-STD-101",
+          "page_number": 1,
+          "section": "2. Sampling Plans",
+          "sub_section": "2.2 Sample Size Selection",
+          "category": "quality_control_standards"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q14",
+      "category": "quality_control_standards",
+      "question": "What are the SCAR timing requirements for rejected incoming material?",
+      "reference": "Issue a Supplier Corrective Action Request (SCAR) within 2 business days. The supplier must respond with root cause and corrective action within 10 business days.",
+      "answer": "For rejected incoming material, issue the Supplier Corrective Action Request (SCAR) within 2 business days. The supplier must provide the root cause and corrective action within 10 business days. The rejected lot must also be tagged with a red NONCONFORMING label and moved to the quarantine cage within 4 hours.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Issue a Supplier Corrective Action Request (SCAR) within 2 business days. The supplier must respond with root cause and corrective action within 10 business days.",
+        "Reject the lot when defects exceed the accept number. Tag the material with a red NONCONFORMING label and move it to the quarantine cage within 4 hours.",
+        "Use 5-Why or fishbone analysis. For repeat or critical issues use an 8D report. Containment must be implemented within 24 hours.",
+        "The Material Review Board (MRB) decides disposition: use-as-is, rework, repair, return to supplier or scrap. Use-as-is on customer-specified characteristics requires customer approval."
+      ],
+      "citations": [
+        {
+          "document_name": "Incoming Inspection and Sampling Standard QC-STD-101",
+          "page_number": 2,
+          "section": "4. Nonconforming Material",
+          "sub_section": "4.2 Supplier Corrective Action",
+          "category": "quality_control_standards"
+        },
+        {
+          "document_name": "Incoming Inspection and Sampling Standard QC-STD-101",
+          "page_number": 2,
+          "section": "4. Nonconforming Material",
+          "sub_section": "4.1 Rejection and Quarantine",
+          "category": "quality_control_standards"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q15",
+      "category": "quality_control_standards",
+      "question": "When is a first article inspection required and what does it involve?",
+      "reference": "An FAI is required at new job start-up, after a tooling change or major repair, and after a process change. Production may not proceed until Quality approves the FAI, and every drawing characteristic is measured and recorded.",
+      "answer": "A first article inspection (FAI) is required at the start of a new job, after a tooling change or major repair, and after a process change. It involves measuring and recording every drawing characteristic. Production may not proceed until Quality approves the FAI.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "A first article inspection (FAI) is required at new job start-up, after tooling change or major repair, and after a process change. Production may not proceed until the FAI is approved by Quality. Every drawing characteristic is measured and recorded.",
+        "This standard defines how purchased raw material and components are inspected on receipt, including sampling plans and disposition rules.",
+        "Check packaging damage, labeling, lot number traceability, and the certificate of conformance and material test report. Material certificates must match the purchase order specification.",
+        "Measure critical dimensions with calibrated calipers, micrometers or CMM. Gauges must be within their calibration interval. Record measured values, not just pass or fail."
+      ],
+      "citations": [
+        {
+          "document_name": "Final Inspection and Nonconformance Management Standard QC-STD-310",
+          "page_number": 1,
+          "section": "1. Final Inspection",
+          "sub_section": "1.1 First Article Inspection",
+          "category": "quality_control_standards"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q16",
+      "category": "quality_control_standards",
+      "question": "How long after a corrective action must effectiveness be verified?",
+      "reference": "Verify effectiveness after 30 days of production or 3 lots, whichever is longer. Close the corrective action only when no recurrence is observed.",
+      "answer": "Effectiveness must be verified after 30 days of production or 3 lots, whichever is longer. The corrective action may be closed only when no recurrence is observed.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Verify corrective action effectiveness after 30 days of production or 3 lots, whichever is longer. Close the corrective action only when no recurrence is observed.",
+        "Use 5-Why or fishbone analysis. For repeat or critical issues use an 8D report. Containment must be implemented within 24 hours.",
+        "Issue a Supplier Corrective Action Request (SCAR) within 2 business days. The supplier must respond with root cause and corrective action within 10 business days.",
+        "When a signal occurs, stop the process, contain parts produced since the last good check, notify the quality engineer, identify the assignable cause and record the action on the chart."
+      ],
+      "citations": [
+        {
+          "document_name": "Final Inspection and Nonconformance Management Standard QC-STD-310",
+          "page_number": 2,
+          "section": "3. Corrective and Preventive Action",
+          "sub_section": "3.2 Effectiveness Verification",
+          "category": "quality_control_standards"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q17",
+      "category": "quality_control_standards",
+      "question": "What detection rules indicate a process is out of statistical control?",
+      "reference": "Investigate when any point lies beyond a control limit, 7 consecutive points fall on one side of the center line, 6 consecutive points trend up or down, or 2 of 3 points are beyond 2 sigma on the same side.",
+      "answer": "A process is out of statistical control when any of these detection rules is met:\n- One point falls beyond a control limit.\n- Seven consecutive points fall on the same side of the center line.\n- Six consecutive points trend upward or downward.\n- Two of three consecutive points fall beyond 2 sigma on the same side of the center line.\n\nWhen a signal occurs, stop the process, contain parts produced since the last good check, notify the quality engineer, and investigate the assignable cause.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Investigate when any point lies beyond a control limit, 7 consecutive points fall on one side of the center line, 6 consecutive points trend up or down, or 2 of 3 points are beyond 2 sigma on the same side.",
+        "When a signal occurs, stop the process, contain parts produced since the last good check, notify the quality engineer, identify the assignable cause and record the action on the chart.",
+        "Calculate control limits at plus and minus 3 sigma from the center line using at least 25 subgroups. Do not use specification limits as control limits. Recalculate only after a verified process change.",
+        "Use X-bar and R charts for subgroup sizes of 2 to 9, individuals and moving range charts for subgroup size 1, and p charts for fraction nonconforming data. Take subgroups of 5 consecutive parts every 30 minutes for machined features."
+      ],
+      "citations": [
+        {
+          "document_name": "Statistical Process Control and Capability Standard QC-STD-205",
+          "page_number": 1,
+          "section": "2. Out-of-Control Signals",
+          "sub_section": "2.1 Detection Rules",
+          "category": "quality_control_standards"
+        },
+        {
+          "document_name": "Statistical Process Control and Capability Standard QC-STD-205",
+          "page_number": 1,
+          "section": "2. Out-of-Control Signals",
+          "sub_section": "2.2 Response Actions",
+          "category": "quality_control_standards"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 0.3333333333333333,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    },
+    {
+      "id": "q18",
+      "category": "quality_control_standards",
+      "question": "What are the minimum Cpk requirements?",
+      "reference": "Capability is computed on a stable process using at least 50 measurements. Minimum Cpk is 1.33 for standard characteristics and 1.67 for safety or critical characteristics. New processes require Ppk of at least 1.67 at launch.",
+      "answer": "Minimum Cpk requirements are 1.33 for standard characteristics and 1.67 for safety or critical characteristics. Capability must be calculated on a stable process using at least 50 measurements. New processes require a launch Ppk of at least 1.67. If Cpk is below the applicable requirement, implement 100% inspection until capability improves and open a corrective action.",
+      "status": "answered",
+      "retrieved_contexts": [
+        "Capability is computed on a stable process using at least 50 measurements. The minimum Cpk is 1.33 for standard characteristics, and 1.67 for safety or critical characteristics. New processes require Ppk of at least 1.67 at launch.",
+        "If Cpk is below the requirement, implement 100 percent inspection of the characteristic until improved, and open a corrective action. Do not adjust limits to hide a capability gap.",
+        "Calculate control limits at plus and minus 3 sigma from the center line using at least 25 subgroups. Do not use specification limits as control limits. Recalculate only after a verified process change.",
+        "Use X-bar and R charts for subgroup sizes of 2 to 9, individuals and moving range charts for subgroup size 1, and p charts for fraction nonconforming data. Take subgroups of 5 consecutive parts every 30 minutes for machined features."
+      ],
+      "citations": [
+        {
+          "document_name": "Statistical Process Control and Capability Standard QC-STD-205",
+          "page_number": 2,
+          "section": "3. Process Capability",
+          "sub_section": "3.1 Cp and Cpk Requirements",
+          "category": "quality_control_standards"
+        },
+        {
+          "document_name": "Statistical Process Control and Capability Standard QC-STD-205",
+          "page_number": 2,
+          "section": "3. Process Capability",
+          "sub_section": "3.2 Actions for Low Capability",
+          "category": "quality_control_standards"
+        }
+      ],
+      "scores": {
+        "answer_relevancy": null,
+        "faithfulness": 1.0,
+        "llm_context_precision_with_reference": 0.9999999999
+      }
+    }
+  ]
+}
